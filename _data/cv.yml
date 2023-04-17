@@ -2,96 +2,73 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Daniela Ivanova
     - name: Date of Birth
-      value: 14th March 1879
+      value: 25th of April 1997
     - name: Languages
-      value: English, German
+      value: Bulgarian (Native), English (C1), German (B1)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Computing Science
+      institution: University of Glasgow, Glasgow, Scotland
+      year: 2020 - now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Independently secured UKRI scholarship as part of the Computer Vision and Autonomous Systems research group at the University of Glasgow. 
+        - Conducting research on the topic of deep learning for analogue film restoration (detection, segmentation and in-painting of artifacts), network interpretability, generative models and multimodal approaches to general image restoration. Preliminary work been published in top-tier graphics conferences.
+
+    - title: BSc (Hons) in Computing Science
+      institution: University of Glasgow, Glasgow, Scotland
+      year: 2016 - 2020
       description:
-        - Description 1.
-        - Description 2.
+        - Graduated with First Class Honours. 
+        - Completed a dissertation with on the topic "A deep learning approach to artefact correction for photographic film" and developed a strong understanding of machine learning algorithms and neural networks architectures, as well as the ability to conduct independent research. Obtained the highest GPA of the year.
+        - Awarded the Most Outstanding Undergraduate Project Award, 2020 by UofG School of Computing Science
+        - Awarded the Scottish Young Software Engineer of the Year, October 2020, for final year project, "A deep learning approach to artefact correction for analogue film"
+        - Awarded the Most Outstanding ULevel 3 Honours Student, 2019 by UofG School of Computing Science       
+
+    - title: Secondary School Diploma
+      institution: Dobri Chintulov School of Mathematics and Natural Sciences, Sliven, Bulgaria
+      year: 2011 - 2016
+      description:
+        - Overall grade - 6.00 (highest possible), with 6 in Advanced Higher Maths, Informatics, Physics.
+        - Received the American Foundation for Bulgaria Scholarship in 2013, 2014, 2015 and 2016, for excellence in academic achievement
+        - Won first place in the National Olympiad in English language in 2013, 2014 and 2016
+        - Won first place in the National Olympiad in Bulgarian language and Literature in 2016
+        - Won first place in the National Olympiad in History in 2016
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Teaching Assistant 
+      institution: University of Glasgow, Glasgow, Scotland
+      year: 2020 - now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Teaching assistance in courses at undergraduate and posgraduate level, including Deep Learning, Computer Vision Methods and Applications, Data Fundamentals, Programming
+    
+    - title: Software Developer
+      institution: Obashi Technology, Falkirk, Scotland
+      year: 2018 - 2020
       description:
-        - Description 1.
-        - Description 2.
+        - Back- and front-end developer, worked on designing and implementing an online business asset management platform.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Print Specialist 
+      institution: Staples UK, Glasgow, Scotland
+      year: 2016 - 2018
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2019
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Most Outstanding Level 3 Honours Student, UofG School of Computing Science
+    - year: 2020
       items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - Most Outstanding Undergraduate Project Award, UofG School of Computing Science
+        - Scottish Young Software Engineer of the Year
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> analogue photography, film, hill-climbing, analogue synthesisers

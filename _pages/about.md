@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: 
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>G141 Lilybank Gardens</p>
+    <p>Sir Alwyn Williams Building</p>
+    <p>University of Glasgow, G12 8RZ</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
@@ -19,8 +19,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi! I am currently a third-year Computing Science PhD student at the University of Glasgow. I am a part of the [Computer Vision and Autonomous Systems (CVAS)](https://www.gla.ac.uk/schools/computing/research/researchsections/ida-section/computervisionandautonomoussystems/) research group and the [Information, Data and Analysis (IDA)](https://www.gla.ac.uk/schools/computing/research/researchsections/ida-section/) Section. My research focuses on developing machine learning approaches for the restoration of images captured on analogue media. I am currently supervised by [Dr John Williamson](http://johnhw.com/) and [Dr Paul Henderson](http://www.pmh47.net/).  
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Prior to my PhD, I completed an Undergraduate degree in Computing Science at the University of Glasgow with Honours of the First Class. During that time, I developed an interest in Machine Learning and its applications in the fields of Natural Language Processing, Image Processing and Computer Vision. My final year project, "A Deep Learning approach to artefact correction in photographic film" combined those interests with my passion for analogue film photography, and served as a foundation for my PhD research proposal. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+

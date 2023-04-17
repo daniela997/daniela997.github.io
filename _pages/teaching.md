@@ -2,11 +2,15 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Tutor or Lab assistant for the following courses.
 nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+- CS1P: Python Programming - 2020
+- Object-Oriented Software Engineering 2 - 2020
+- CS1F: Computing Fundamentals - 2021
+- Web App Development - 2021
+- Computer Vision Methods and Applications (H) - 2020, 2022
+- Deep Learning (M) - 2023 
+- Deep Learning (MSc) - 2022, 2023 
