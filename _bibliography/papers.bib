@@ -1,84 +1,51 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
+@article{ivanova2022,
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+  author={Daniela Ivanova and Jan Siebert and John Williamson},
+  title={Perceptual Loss based Approach for Analogue Film Restoration},
+  journal={Proceedings of the 17th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications},
+  year={2022},
+  volume={4},
+  pages={126-135},
+  publisher={SciTePress},
+  organization={INSTICC},
+  doi={10.5220/0010829300003124},
+  isbn={978-989-758-555-5},
+  pdf={https://eprints.gla.ac.uk/259748/2/259748.pdf},
+  abstract={Analogue film restoration, both for still photographs and motion picture emulsions, 
+  is a slow and laborious manual process. Artifacts such as dust and scratches are random in shape, 
+  size, and location; additionally, the ovserall degree of damage varies between different frames. 
+  We address this less popular case of image restoration by training a U-Net model with a modified perceptual loss function. 
+  Along with the novel perceptual loss function used for training, we propose a more rigorous quantitative model evaluation 
+  approach which measures the overall degree of improvement in perceptual quality over our test set.},
+  code={https://github.com/daniela997/DustScratchRemoval},
+  preview={visapp_gif.gif},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@article{ivanova23analogue,
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
+  title = {Simulating analogue film damage to analyse and improve artefact restoration on high-resolution scans},
+  author = {Daniela Ivanova and John Williamson and Paul Henderson},
+  journal = {Computer Graphics Forum (Proceedings of Eurographics 2023)},
+  year = {2023},
+  volume = {42},
+  number = {2},   
+  doi = {10.1111/cgf.14749},
+  pdf={https://arxiv.org/pdf/2302.10004.pdf},
+  abstract={
+            Digital scans of analogue photographic film typically contain artefacts such as dust and scratches. Automated removal of these is an important part of preservation and dissemination of photographs of historical and cultural importance.
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
-}
+            While state-of-the-art deep learning models have shown impressive results in general image inpainting and denoising, film artefact removal is an understudied problem. It has particularly challenging requirements, due to the complex nature of analogue damage, the high resolution of film scans, and potential ambiguities in the restoration. There are no publicly available high-quality datasets of real-world analogue film damage for training and evaluation, making quantitative studies impossible.
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
+            We address the lack of ground-truth data for evaluation by collecting a dataset of 4K damaged analogue film scans paired with manually-restored versions produced by a human expert, allowing quantitative evaluation of restoration performance. We construct a larger synthetic dataset of damaged images with paired clean versions using a statistical model of artefact shape and occurrence learnt from real, heavily-damaged images. We carefully validate the realism of the simulated damage via a human perceptual study, showing that even expert users find our synthetic damage indistinguishable from real. In addition, we demonstrate that training with our synthetically damaged dataset leads to improved artefact segmentation performance when compared to previously proposed synthetic analogue damage.
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+            Finally, we use these datasets to train and analyse the performance of eight state-of-the-art image restoration methods on high-resolution scans. We compare both methods which directly perform the restoration task on scans with artefacts, and methods which require a damage mask to be provided for the inpainting of artefacts.
+            },
+  code={https://github.com/daniela997/FilmDamageSimulator},
+  arxiv={2302.10004},
+  supp={https://gla-my.sharepoint.com/:b:/g/personal/2262058i_student_gla_ac_uk/ETh16PK7HdRJgjeoge1XnrQBqO2wwGb3WN336LMtdusung?e=NJJLmL},
+  website={https://daniela997.github.io/FilmDamageSimulator/},
+  preview={eg.gif},
 }
