@@ -3,10 +3,10 @@ layout: page
 title: projects
 permalink: /projects/
 description: Slides, notes, things that don't fit anywhere else.
-nav: False
+nav: True
 nav_order: 2
 display_categories: [work, fun]
-horizontal: false
+horizontal: True
 ---
 
 <!-- pages/projects.md -->
