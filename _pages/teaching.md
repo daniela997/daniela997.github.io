@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Tutor or Lab assistant for the following courses.
+description: I have been a Tutor or Lab assistant for the following courses at the University of Glasgow.
 nav: true
 nav_order: 5
 ---
@@ -12,5 +12,6 @@ nav_order: 5
 - CS1F: Computing Fundamentals - 2021
 - Web App Development - 2021
 - Computer Vision Methods and Applications (H) - 2020, 2022
-- Deep Learning (M) - 2023 
-- Deep Learning (MSc) - 2022, 2023 
+- Data Fundamentals (H) - 2021, 2022, 2023
+- Deep Learning (M) - 2023, 2024
+- Deep Learning (MSc) - 2022, 2023, 2024
