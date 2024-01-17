@@ -123,7 +123,8 @@
             <!-- _pages/publications.md -->
 <div class="publications">
   <h2 class="year">2023</h2>
-  <ol class="bibliography"><li>
+  <ol class="bibliography">
+<li>
 <!-- _layouts/bib.html -->
       <div class="row">
         <div class="col-sm-2 preview">
@@ -148,7 +149,8 @@
         <div class="author">
         
 
-        <em>Daniela Ivanova</em>, John Williamson, and Paul Henderson</div>
+        <em>Daniela Ivanova</em>, <a href="http://johnhw.com/" rel="external nofollow noopener" target="_blank">John Williamson</a>, and <a href="http://www.pmh47.net/" rel="external nofollow noopener" target="_blank">Paul Henderson</a>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -202,7 +204,92 @@
           </div>
         </div>
       </div>
-</li></ol>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview">
+<figure>
+
+  <picture>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/diffinfinite.gif" class="preview z-depth-1 rounded" width="auto" height="auto" alt="diffinfinite.gif" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+</div>
+
+        <!-- Entry bib key -->
+        <div id="aversa2023diffinfinite" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">DiffInfinite: Large Mask-Image Synthesis via Parallel Random Patch Diffusion in Histopathology</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <a href="https://marcoaversa.github.io/" rel="external nofollow noopener" target="_blank">Marco Aversa</a>, Gabriel Nobis, Miriam Hägele, Kai Standvoss, Mihaela Chirica, Roderick Murray-Smith, Ahmed Alaa, Lukas Ruff, <em>Daniela Ivanova</em>, Wojciech Samek, and
+          <span class="more-authors" title="click to view 3 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '3 more authors' ? 'Frederick Klauschen, Bruno Sanguinetti, Luis Oala' : '3 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '0');
+              ">3 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Proceedings of the Neural Information Processing Systems Track on Datasets and Benchmarks (NeurIPS)</em>, 2023
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="http://arxiv.org/abs/2306.13384" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://marcoaversa.github.io/diffinfinite/static/pdfs/DiffInfinite_paper.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://marcoaversa.github.io/diffinfinite/static/pdfs/DiffInfinite_supplementary.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Supp</a>
+            <a href="https://github.com/marcoaversa/diffinfinite" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+            <a href="https://marcoaversa.github.io/diffinfinite/" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Website</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.48550/arXiv.2306.13384"></span>
+              <span class="__dimensions_badge_embed__" data-doi="10.48550/arXiv.2306.13384" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>
+            We present DiffInfinite, a hierarchical diffusion model that generates arbitrarily large histological images while preserving long-range correlation structural information. Our approach first generates synthetic segmentation masks, subsequently used as conditions for the high-fidelity generative diffusion process. The proposed sampling method can be scaled up to any desired image size while only requiring small patches for fast training. Moreover, it can be parallelized more efficiently than previous large-content generation methods while avoiding tiling artefacts. The training leverages classifier-free guidance to augment a small, sparsely annotated dataset with unlabelled data. Our method alleviates unique challenges in histopathological imaging practice: large-scale information, costly manual annotation, and protective data handling. The biological plausibility of DiffInfinite data is validated in a survey by ten experienced pathologists as well as a downstream segmentation task. Furthermore, the model scores strongly on anti-copying metrics which is beneficial for the protection of patient data.             </p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">aversa2023diffinfinite</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{DiffInfinite: Large Mask-Image Synthesis via Parallel Random Patch Diffusion in Histopathology}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Aversa, Marco and Nobis, Gabriel and Hägele, Miriam and Standvoss, Kai and Chirica, Mihaela and Murray-Smith, Roderick and Alaa, Ahmed and Ruff, Lukas and Ivanova, Daniela and Samek, Wojciech and Klauschen, Frederick and Sanguinetti, Bruno and Oala, Luis}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Proceedings of the Neural Information Processing Systems Track on Datasets and Benchmarks (NeurIPS)}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.48550/arXiv.2306.13384}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+</ol>
 
   <h2 class="year">2022</h2>
   <ol class="bibliography"><li>
@@ -230,7 +317,8 @@
         <div class="author">
         
 
-        <em>Daniela Ivanova</em>, Jan Siebert, and John Williamson</div>
+        <em>Daniela Ivanova</em>, Jan Siebert, and <a href="http://johnhw.com/" rel="external nofollow noopener" target="_blank">John Williamson</a>
+</div>
 
         <!-- Journal/Book title and date -->
         
