@@ -5,6 +5,8 @@
   <head>
   {%- if page.redirect -%}
     <meta http-equiv="refresh" content="3; url={{ site.baseurl }}/" />
+  {%- elsif page.redirect_to -%}
+    <meta http-equiv="refresh" content="{{ page.redirect_delay | default: 15 }}; url={{ page.redirect_to | relative_url }}" />
   {%- endif -%}
   {% include head.html %}
   </head>
