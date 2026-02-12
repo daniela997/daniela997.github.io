@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content="15; url=/plankton-study-2/" />
+    <link rel="canonical" href="https://daniela997.github.io/plankton-study-2/" />
+    <title>Plankton Study</title>
+  </head>
+  <body>
+    <p>
+      You have probably found this page from a link to my previous generated plankton study. You will be redirected to the current
+      <a href="/plankton-study-2/"> GeneratedPlankton Study</a> in <span id="timer">15</span> seconds.
+      If the redirect doesn't happen automatically, follow the link.
+    </p>
+    <script>
+      (function () {
+        var timerEl = document.getElementById("timer");
+        var seconds = 15;
+        var interval = setInterval(function () {
+          seconds -= 1;
+          if (seconds <= 0) {
+            clearInterval(interval);
+            return;
+          }
+          timerEl.textContent = seconds;
+        }, 1000);
+      })();
+    </script>
+  </body>
+</html>
