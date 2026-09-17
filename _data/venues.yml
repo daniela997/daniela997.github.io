@@ -6,3 +6,21 @@
 
 "NeurIPS":
   url: https://nips.cc/
+
+"WACV":
+  url: https://wacv.thecvf.com/
+
+"ECCV":
+  url: https://eccv.ecva.net/
+
+"ECCVW":
+  url: https://eccv.ecva.net/
+
+"ICPR":
+  url: https://www.iapr.org/conferences/
+
+"MMM":
+  url: https://mmm2026.org/
+
+"IJCNN":
+  url: https://www.ijcnn.org/

@@ -3,70 +3,137 @@
   contents:
     - name: Full Name
       value: Daniela Ivanova
-    - name: Date of Birth
-      value: 25th of April 1997
     - name: Languages
       value: Bulgarian (Native), English (C1), German (B1)
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Research Scientist
+      institution: Centre for Data Science & AI, University of Glasgow, Scotland
+      year: 2026 - now
+      description:
+        - Collaborating on interdisciplinary machine learning research across all colleges.
+
+    - title: Postdoctoral Research Assistant
+      institution: School of Computing Science, University of Glasgow, Scotland
+      year: 2025 - 2026
+      description:
+        - Fine-grained plankton classification, automated underwater and benthic image analysis and biodiversity monitoring.
+
+    - title: Postdoctoral Research Assistant
+      institution: School of Computing Science, University of Glasgow & OrthoVis, Scotland
+      year: 2025
+      description:
+        - 3D CT scan bone fracture detection, in collaboration with the NHS.
+
+    - title: Graduate Teaching Assistant
+      institution: School of Computing Science, University of Glasgow, Scotland
+      year: 2020 - 2025
+      description:
+        - Delivered deep learning and computer vision courses at both undergraduate and postgraduate level.
+
+    - title: Software Engineer
+      institution: Obashi Technology, Falkirk, Scotland
+      year: 2018 - 2021
+      description:
+        - Back- and front-end developer, designed and implemented a business asset management platform using Golang and Vue.js.
+
+    - title: Printing Specialist
+      institution: Staples UK, Glasgow, Scotland
+      year: 2016 - 2018
+      description:
+        - Design and printing of bespoke wide-format goods.
 
 - title: Education
   type: time_table
   contents:
     - title: PhD in Computing Science
       institution: University of Glasgow, Glasgow, Scotland
-      year: 2020 - now
+      year: 2020 - 2025
       description:
-        - Independently secured UKRI scholarship as part of the Computer Vision and Autonomous Systems research group at the University of Glasgow. 
-        - Conducting research on the topic of deep learning for analogue film restoration (detection, segmentation and in-painting of artifacts), network interpretability, generative models and multimodal approaches to general image restoration. Preliminary work been published in top-tier graphics conferences.
+        - "Supervisors: Dr John Williamson, Dr Paul Henderson"
+        - Repurposed multimodal generative models (e.g. text-to-image diffusion models) for segmentation, in particular detection of analogue media damage.
+        - Collaborated on synthetic data generation, medical image segmentation, talking head generation, 3D reconstruction and video synthesis projects.
+        - Co-supervised Masters and junior PhD students.
 
-    - title: BSc (Hons) in Computing Science
+    - title: BSc (Hons) in Computing Science, First Class
       institution: University of Glasgow, Glasgow, Scotland
       year: 2016 - 2020
       description:
-        - Graduated with First Class Honours. 
-        - Completed a dissertation with on the topic "A deep learning approach to artefact correction for photographic film" and developed a strong understanding of machine learning algorithms and neural networks architectures, as well as the ability to conduct independent research. Obtained the highest GPA of the year.
-        - Awarded the Most Outstanding Undergraduate Project Award, 2020 by UofG School of Computing Science
-        - Awarded the Scottish Young Software Engineer of the Year, October 2020, for final year project, "A deep learning approach to artefact correction for analogue film"
-        - Awarded the Most Outstanding ULevel 3 Honours Student, 2019 by UofG School of Computing Science       
+        - "Honours Supervisor: Dr Paul Siebert"
+        - Thesis title (self-defined topic) - "A deep learning approach to artefact correction for photographic film", receiving an A1 grade (highest in several years) and multiple awards.
+        - "Modules: Machine Learning, Deep Learning, Computer Vision, NLP, RecSys, Linear Algebra, Calculus."
+        - Redeveloped accessible educational games for Doorway Accessible Software Trust, a Scottish charity.
 
     - title: Secondary School Diploma
       institution: Dobri Chintulov School of Mathematics and Natural Sciences, Sliven, Bulgaria
       year: 2011 - 2016
       description:
-        - Overall grade - 6.00 (highest possible), with 6 in Advanced Higher Maths, Informatics, Physics.
-        - Received the American Foundation for Bulgaria Scholarship in 2013, 2014, 2015 and 2016, for excellence in academic achievement
-        - Won first place in the National Olympiad in English language in 2013, 2014 and 2016
-        - Won first place in the National Olympiad in Bulgarian language and Literature in 2016
-        - Won first place in the National Olympiad in History in 2016
+        - Overall grade 6.00/6.00 (highest possible), with 6 in Advanced Higher Maths, Informatics, Physics.
+        - Received the American Foundation for Bulgaria Scholarship in 2013, 2014, 2015 and 2016, for excellence in academic achievement.
+        - Won first place in the National Olympiad in English language in 2013, 2014 and 2016.
+        - Won first place in the National Olympiad in Bulgarian language and Literature in 2016.
+        - Won first place in the National Olympiad in History in 2016.
 
-- title: Experience
+- title: Awards, Fellowships & Grants
   type: time_table
   contents:
-    - title: Teaching Assistant 
-      institution: University of Glasgow, Glasgow, Scotland
-      year: 2020 - now
-      description:
-        - Teaching assistance in courses at undergraduate and posgraduate level, including Deep Learning, Computer Vision Methods and Applications, Data Fundamentals, Programming
-    
-    - title: Software Developer
-      institution: Obashi Technology, Falkirk, Scotland
-      year: 2018 - 2020
-      description:
-        - Back- and front-end developer, worked on designing and implementing an online business asset management platform.
-
-    - title: Print Specialist 
-      institution: Staples UK, Glasgow, Scotland
-      year: 2016 - 2018
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 2019
-      items: 
-        - Most Outstanding Level 3 Honours Student, UofG School of Computing Science
+    - year: 2024
+      items:
+        - Image Restoration Hackathon Winner - Diffusions in ML: Foundations, generative models and non-convex optimisation, University of Edinburgh, Alan Turing Institute
+    - year: 2020 - 2024
+      items:
+        - Doctoral Training Award, EPSRC (£50,000)
     - year: 2020
-      items: 
-        - Most Outstanding Undergraduate Project Award, UofG School of Computing Science
-        - Scottish Young Software Engineer of the Year
+      items:
+        - Most Outstanding Undergraduate Project Award, SoCS, University of Glasgow (£250)
+        - Scottish Young Software Engineer of the Year, for Honours thesis, ScotlandIS (£2000)
+    - year: 2019
+      items:
+        - Most Outstanding Level 3 Honours Student, SoCS, University of Glasgow (£200)
+
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - year: 2025
+      items:
+        - Text as Data / Introduction to NLP, Graduate Teaching Assistant
+    - year: 2020 - 2025
+      items:
+        - Data Fundamentals / Introduction to Data Science, Graduate Teaching Assistant
+    - year: 2020 - 2024
+      items:
+        - Deep Learning, Graduate Teaching Assistant
+    - year: 2020 - 2023
+      items:
+        - Computer Vision Methods and Applications, Graduate Teaching Assistant
+    - year: 2020; 2025
+      items:
+        - Programming, Graduate Teaching Assistant
+
+- title: Service & Outreach
+  type: time_table
+  contents:
+    - year: 2023
+      items:
+        - British Machine Vision Conference (BMVC) Doctoral Consortium, General Chair
+    - year: 2021 - 2022
+      items:
+        - Computer Vision and Autonomous Systems (CVAS) research group seminars, Organiser
+    - year: 2018 - 2020
+      items:
+        - Glasgow University Society for Women in Technology (GUSWITCH), Vice President
+
+- title: Peer Review
+  type: list
+  contents:
+    - BMVC (2023, 2024, 2025), ECCV (2024, 2026), WACV (2024, 2025), CVPR (2025), ICCV (2025), AAAI (2025), NeurIPS (2026)
+
+- title: Skills
+  type: list
+  contents:
+    - Python, scikit-learn, PyTorch, HuggingFace (Transformers, Diffusers, Accelerate, Gradio), Pandas, JAX, Fast.ai, Google Cloud Platform, AWS for ML, GoLang, C, C++
 
 - title: Other Interests
   type: list
