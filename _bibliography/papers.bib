@@ -6,8 +6,11 @@
   bibtex_show={true},
   title={Multimodal Taxonomic Conditioning for Generative Plankton Imagery},
   author={Daniela Ivanova and Özgü Göksu and Nicolas Pugeault},
-  booktitle={Proceedings of the European Conference on Computer Vision (ECCV) Workshop on MARINE Vision},
+  booktitle={Proceedings of the European Conference on Computer Vision (ECCV) 2nd Workshop on Marine Vision},
   year={2026},
+  arxiv={2609.11673},
+  pdf={https://arxiv.org/pdf/2609.11673},
+  abstract={Automated plankton imaging produces severely long-tailed datasets, where the rare taxa of greatest ecological interest have too few images to train or evaluate classifiers reliably. We generate synthetic plankton imagery conditioned on taxonomy: a CLIP encoder is adapted on a large plankton corpus with a ranked contrastive objective extended to deep, ragged taxonomies, then frozen to condition a parameter-efficient diffusion transformer. We evaluate synthetic sample quality on distributional fidelity and downstream classifier utility.},
   preview={plankton.png},
   selected={true},
 }
@@ -43,7 +46,11 @@
   author={Athanasios Tragakis and Marco Aversa and Daniela Ivanova and Chaitanya Kaul and Roderick Murray-Smith and Daniele Faccio and Paul Henderson},
   booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},
   year={2026},
+  arxiv={2609.10363},
+  pdf={https://arxiv.org/pdf/2609.10363},
+  abstract={SceneHI is a framework that lifts high-resolution, illumination-aware priors from 2D diffusion models to perform 3D texture synthesis. It is the first to demonstrate that high-resolution textures, previously limited to 2D synthesis, can be generated directly on 3D objects without model fine-tuning or optimization. Designed for complex, multi-object environments, SceneHI uniquely combines 3D-consistency, high-resolution fidelity, and physically plausible baked shadows within a single generative pipeline. To enforce strict geometric coherence, we introduce an exact analytical pixel-to-texel mapping that aligns diffusion trajectories across multiple viewpoints. We utilize High-Resolution Latent Textures (HRLTs) as a persistent canvas for gradually denoised textures, while camera views perform the denoising steps in latent pixel space. This ensures a shared base texture that can be subsequently refined to high resolution without compromising multi-view consistency. Finally, a light-aware generative pass embeds realistic geometry-consistent shadows directly into the atlases, bridging the gap to production workflows. SceneHI achieves high visual fidelity while reducing generation time by 80% compared to existing scene-level methods.},
   preview={scenehi.gif},
+  selected={true},
 }
 
 @inproceedings{henderson2026sampling,
